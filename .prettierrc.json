@@ -1,0 +1,22 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "ignore",
+  "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-sort-json",
+    "prettier-plugin-organize-attributes",
+    "prettier-plugin-organize-imports"
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
