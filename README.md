@@ -4,19 +4,13 @@ A **Prettier plugin** that **automatically sorts HTML attributes alphabetically*
 
 ## Installation
 
-### 1. Install Prettier
+### 1. Install Dependencies
 
-If you haven’t already, install Prettier in your project:
+```bash
+npm install -D prettier prettier-plugin-astro prettier-plugin-astro-attributes
+```
 
-- Run `npm install --save-dev prettier`.
-
-### 2. Install the Plugin
-
-Install the `prettier-plugin-astro-attributes` plugin:
-
-- Run `npm install --save-dev prettier-plugin-astro-attributes`.
-
-### 3. Configure Prettier
+### 2. Configure Prettier
 
 In your `.prettierrc` or `prettier.config.js` file, add the plugin:
 
@@ -32,7 +26,7 @@ In your `.prettierrc` or `prettier.config.js` file, add the plugin:
       }
     }
   ],
-  "plugins": ["prettier-plugin-astro-attributes"]
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-astro-attributes"]
 }
 ```
 
