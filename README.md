@@ -2,6 +2,11 @@
 
 A **Prettier plugin** that **automatically sorts HTML attributes alphabetically** in `.astro` files to ensure clean, consistent code formatting.
 
+## 🎥 Demo
+[Watch the Demo](https://github.com/user-attachments/assets/06de8a0b-4037-49d7-8156-cf8bba6f4141)
+
+---
+
 ## Installation
 
 ### 1. Install Dependencies
